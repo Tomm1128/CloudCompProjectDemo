@@ -24,5 +24,5 @@ sudo apt-get install -y numactl
 sudo apt-get install -y git
 sudo apt-get install time 
 sudo git clone https://github.com/thewmf/kvm-docker-comparison.git
-sudo ./kvm-docker-comparison/Stream/linux.sh
-sudo ./kvm-docker-comparison/linpack/linux.sh
+sudo ./kvm-docker-comparison/Stream/linux.sh 1
+sudo ./kvm-docker-comparison/linpack/linux.sh 1
